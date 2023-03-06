@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+}
+
+#cab .line {
+    height: 15px;
+    background-color: #117050;
+}
+/*Comuns */
+.barr {
+    width: 168px;
+    height: 22px;
+    background-color: #006241;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-size: bold;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    font-size: bold;    
+    line-height: 90px;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    text-decoration:none;
+    border: 2px solid #454545;
+    color: #454545;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 10px 30px;
+
+
+}
+.button:hover {
+    background-color: #454545;
+    color: white;
+}
+
+/*Cabeçalho */
+
+#cab .container .logo img {
+    width: 80px;
+    height: 80px;
+}
+
+#cab .container .searchmenu {
+    display: flex;
+    align-items: center;
+}
+
+#cab .container .busca input {
+    height: 25px;
+    width: 300px;
+    margin-right: -40px;
+    padding: 7px;
+}
+
+#cab .container .busca img {
+    width: 18px;
+    height: 15px;
+}
+
+#cab .container .menu div {
+    width: 30px;
+    margin-bottom: 5px;
+    border-bottom: 3px solid black;
+    margin-left: 40px;
+}
+ /* Banner */
+#banner {
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;    
+    
+}
+
+#banner .content {
+    display: block;
+    margin-top: 0px;
+    
+}
+
+#banner .content h1{
+    margin-top: -20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    font-size: bold;    
+    line-height: 90px;
+    margin-bottom: 30px;
+}
+
+#banner .content img {
+    border: 4px solid #117050 ;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+
+
+/* Area1 */
+#area1 .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#area1 .content .element1 {
+    padding: 80px;
+
+}
+#area1 .content .element1 p {
+    margin-bottom: 30px;
+}
+#area1 .content .element2 {
+    background-image: url(../img/f1.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+
+}
+
+#area1 .content .element3 {
+    background-image: url(../img/f2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    
+}
+
+/* Area 2 */
+#area2 .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#area2 .content .element2 {
+    padding: 80px;
+    grid-column: 2;
+    grid-row: 1 / 3;
+
+}
+#area2 .content .element2 p {
+    margin-bottom: 30px;
+}
+
+#area2 .content .element1 {
+    background-image: url(../img/f3.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column:1;
+    grid-row: 1 / 4;
+    
+}
+
+#area2 .content .element3 {
+    background-image: url(../img/f4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    grid-column: 2;     
+}
+
+/* Area 3 */
+#area3 .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#area3 .element1 {
+    padding-top: 200px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 200px;
+    background-image: url(../img/bg2.jpg);
+    background-size: cover;
+    background-position:left;
+}
+
+#area3 .element2 {
+    background-image: url(../img/f5.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#area3 .content .element2 p {
+    margin-bottom: 30px;
+}
+
+/* Area 4 */
+#area4 {
+    background-color: #e8e9ee;
+}
+
+#area4 .content {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    
+}
+#area4 .texto {
+   padding-top: 80px;
+   padding-bottom: 80px;
+   
+}
+
+#area4 .content .texto p {
+    margin-bottom: 30px;
+}
+
+#area4 .content .bg {
+    background-image: url(../img/bg3.jpg);
+    background-position: left;
+    background-size: cover;
+    height: 555px;
+   
+}
+
+/* Area 5 */
+
+#area5 {
+    background-image: url(../img/bg4.jpg);
+    background-position: left;
+    background-size: cover;
+    height: 600px;
+}
+
+/* footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+
+}
+
+@media (max-width: 1140px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #area1 .content {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    #area4 .content {
+        grid-template-columns: 300px 1fr;
+    }
+
+}
+
+@media (max-width: 425px) {
+    #cab .container .busca input {
+        width: 200px;
+    }
+    #banner .content h1 {
+        font-size: 70px;
+    }
+    #banner .content img {
+        border: 3px solid #117050;
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    #area1 .content {
+        grid-template-columns: 1fr;
+    }
+    #area2 .content {
+        grid-template-columns: 1fr;
+    }
+    #area3 .content {
+        grid-template-columns: 1fr;
+    }
+
+    #area5 {
+        background-position: right;
+    }
+}
+
+@media (max-width: 375px) {
+    #cab .container .busca input {
+        width: 150px;
+    }
+
+    #banner .content h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    #banner .content img {
+        width: 90px;
+        height: 90px;
+    }
+    #area1 .content .element1, 
+    #area2 .content .element2,
+    #area3 .element1 {
+        padding: 40px;
+    }
+
+}
+
+
+
